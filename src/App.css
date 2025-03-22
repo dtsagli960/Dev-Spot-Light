@@ -1,0 +1,137 @@
+#root {
+  min-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #ddd;
+  z-index: 1000;
+  color: white; 
+
+}
+
+
+
+.individual-name {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  
+}
+
+/* Nav styling */
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+/* Default button styling */
+.nav-links li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  color: #6b6b6b;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect: Make text green and slightly bigger */
+.nav-links li button:hover {
+  color: #52b788; 
+  font-size: 22px; 
+  font-weight: bold;
+  transform: scale(1.1); 
+}
+
+/* Active tab: Green background with white text */
+.nav-links li .active {
+  color: white; 
+  background-color: #52b788; 
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+
+main {
+  padding: 2rem;
+}
+
+main section {
+  display: none;
+}
+
+main section.active {
+  display: block;
+  padding: 2rem;
+}
+
+/* Styling for headings */
+main section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: white;
+  border-bottom: 2px solid #52b788;
+  padding-bottom: 0.5rem;
+}
+
+/* Styling for Portfolio */
+.project-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+/* Styling for Resume */
+main section ul {
+  list-style: none;
+  padding: 0;
+}
+
+main section ul li {
+  font-size: 18px;
+  color: #555;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for Contact */
+main section p {
+  font-size: 18px;
+  color: #555;
+  text-align: left;
+}
+
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #081c15;
+  border-top: 2px solid ;
+  margin-top: 20px;
+}
