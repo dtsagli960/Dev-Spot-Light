@@ -32,7 +32,7 @@ function App() {
       email: "danieltsagli@gmail.com",
       phone: "123-456-7890"
     },
-    resume: "/src/assets/uploads/DanielTsaglicv.pdf",
+    resume: "/DanielTsaglicv.pdf",
     proficiencies: ["React", "JavaScript", "CSS", "Node.js", "MongoDB"]
   };
 
