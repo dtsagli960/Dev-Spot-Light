@@ -17,13 +17,13 @@ function App() {
     portfolio: [
       {
         title: "Personal Blog",
-        image: "/images/blogimage.png",
+        image: "/images/blogimage.jpg",
         deployedLink: "https://web.us.edusercontent.com/p67muukhjn5bbet7v1djhn2ckg/index.html",
         githubLink: "#"
       },
       {
         title: "Employee Tracker",
-        image: "/images/employeetrackerimage.jpg",
+        image: "/images/employeetracker.jpg",
         deployedLink: "#",
         githubLink: "https://github.com/dtsagli/employee-tracker"
       }
