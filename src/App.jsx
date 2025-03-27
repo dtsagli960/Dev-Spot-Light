@@ -16,23 +16,23 @@ function App() {
     hobbies: "Exploring new tech trends, contributing to open source, an MC for hire, or enjoying a good book.",
     portfolio: [
       {
-        title: "Weather App",
-        image: "/images/weather-app.png",
-        deployedLink: "https://weatherapp.com",
-        githubLink: "https://github.com/dtsagli/weather-app"
+        title: "Personal Blog",
+        image: "/images/blogimage.png",
+        deployedLink: "https://web.us.edusercontent.com/p67muukhjn5bbet7v1djhn2ckg/index.html",
+        githubLink: "#"
       },
       {
-        title: "Task Manager",
-        image: "/images/task-manager.png",
-        deployedLink: "https://taskmanager.com",
-        githubLink: "https://github.com/dtsagli/task-manager"
+        title: "Employee Tracker",
+        image: "/images/employeetrackerimage.jpg",
+        deployedLink: "#",
+        githubLink: "https://github.com/dtsagli/employee-tracker"
       }
     ],
     contact: {
       email: "danieltsagli@gmail.com",
       phone: "123-456-7890"
     },
-    resume: "/files/resume.pdf",
+    resume: "/src/assets/uploads/DanielTsaglicv.pdf",
     proficiencies: ["React", "JavaScript", "CSS", "Node.js", "MongoDB"]
   };
 
