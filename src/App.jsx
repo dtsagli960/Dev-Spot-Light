@@ -25,11 +25,17 @@ function App() {
         title: "Employee Tracker",
         image: "/images/employeetracker.jpg",
         deployedLink: "#",
-        githubLink: "https://github.com/dtsagli/employee-tracker"
+        githubLink: "https://github.com/dtsagli960/Employee-tracker"
+      },
+      {
+        title: "Apollo Book Search",
+        image: "/images/secondbooksearch.png",
+        deployedLink: "#",
+        githubLink: "https://github.com/dtsagli960/Apollo-Book-Search"
       }
     ],
     contact: {
-      email: "danieltsagli@gmail.com",
+      email: "danieltsagli960@gmail.com",
       phone: "123-456-7890"
     },
     resume: "/DanielTsaglicv.pdf",
